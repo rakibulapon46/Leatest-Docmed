@@ -119,22 +119,24 @@ nav .appointment-btn:hover {
   background-color: #fff;
 }
 
-.blog-nav-link,
-.pages-nav-link {
-  padding: 0.5rem 5rem 0.5rem 1.5rem;
+.dropdown-item {
   cursor: pointer;
   /* border: 1px solid #009dff; */
+}
+
+.ni-3:focus, .ni-4:focus{
+  display: none;
 }
 
 .ni-3:hover > .blog-nav-item,
 .ni-4:hover > .pages-nav-item {
   display: block;
-  position: absolute;
 }
 
 .blog-nav-link:hover,
 .pages-nav-link:hover {
   color: #000;
+  background-color: #fff;
 }
 /* navbar ends */
 
