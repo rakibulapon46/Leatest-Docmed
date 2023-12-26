@@ -139,12 +139,6 @@ nextBtn.addEventListener("click", handleNext);
 
 
 // link
-const aboutPart = document.getElementById("about");
-aboutPart.addEventListener("click", aboutLink);
-
-function aboutLink() {
-  window.open("./about.html", "_self");
-}
 
 const blogPart = document.getElementById("blog");
 blogPart.addEventListener("click", blogLink);
@@ -160,3 +154,10 @@ function singleBlogLink() {
   window.open("./single-blog.html", "_self");
 }
 
+
+const aboutPart = document.getElementById("abOut");
+aboutPart.addEventListener("click", aboutLink);
+
+function aboutLink() {
+  window.open("./about.html", "_self");
+}
