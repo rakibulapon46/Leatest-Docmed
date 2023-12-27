@@ -137,7 +137,6 @@ startAutoplaySys();
 prevBtn.addEventListener("click", handlePrev);
 nextBtn.addEventListener("click", handleNext);
 
-
 // link
 
 const blogPart = document.getElementById("blog");
@@ -153,7 +152,6 @@ singleBlogPart.addEventListener("click", singleBlogLink);
 function singleBlogLink() {
   window.open("./single-blog.html", "_self");
 }
-
 
 const aboutPart = document.getElementById("abOut");
 aboutPart.addEventListener("click", aboutLink);
