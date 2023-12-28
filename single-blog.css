@@ -579,7 +579,7 @@ blockquote {
 
 .comment-form h4 {
   margin-bottom: 40px;
-  font-size: 20px;
+  font-size: 22px;
   line-height: 22px;
 }
 
@@ -704,7 +704,7 @@ blockquote {
 @media (min-width: 280px) and (max-width: 575px) {
 .main{
   transform: translate(0%, 0%);
-  padding: 7em 0;
+  padding: 3em 0;
 }
 
 .primary-content{
@@ -731,6 +731,14 @@ blockquote {
 
 .feed-img-section img{
   padding: 6px;
+}
+
+.comments-area {
+  padding: 45px 0 25px 0;
+}
+
+.comment-form {
+  margin-top: 0px;
 }
 
 .msg-btn{
