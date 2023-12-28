@@ -89,7 +89,7 @@ p {
 .nav-item {
   font-family: "Poppins", sans-serif;
   font-weight: 500;
-  font-size: 15px;
+  font-size: 16px;
   line-height: 23px;
   color: #78899a;
   /* border: 1px solid salmon; */
@@ -108,7 +108,7 @@ nav .appointment-btn {
 
 nav .appointment-btn:hover {
   color: #009dff;
-  background-color: #fff;
+  background-color: rgb(255, 255, 255);
   border: 1px solid #009dff;
 }
 
@@ -119,9 +119,14 @@ nav .appointment-btn:hover {
   background-color: #fff;
 }
 
-.dropdown-item {
-  cursor: pointer;
-  /* border: 1px solid #009dff; */
+.dropdown-item a {
+  text-decoration: none;
+  color: #1F1F1F;
+}
+
+.blog-nav-item > .blog-nav-link:hover.dropdown-item a, 
+.pages-nav-item > .pages-nav-link:hover.dropdown-item a {
+  color:#000000;
 }
 
 .ni-3:focus, .ni-4:focus{
