@@ -84,3 +84,77 @@ p {
     font-weight: 400;
     text-transform: capitalize;
 }
+
+.doctors{
+  padding: 3em 0;
+}
+
+
+.doctor-card-section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  margin: 2.5em 0;
+  padding-left: 1em;
+}
+
+.doctor-card {
+  width: 18rem;
+  margin-bottom: 2em;
+}
+
+@media (min-width: 1200px) and (max-width: 1399px) {
+  .doctor-card {
+    width: 16rem;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+  .doctor-card-section {
+    padding-left: 0em;
+  }
+
+  .doctor-card {
+    width: 13.5rem;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  .doctor-card-section {
+    padding-left: 2em;
+  }
+
+  .doctor-card {
+    width: 19rem;
+    margin-bottom: 2.5em;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 767px) {
+
+  .doctor-card {
+    width: 30rem;
+    margin-bottom: 2.5em;
+  }
+}
+
+@media (min-width: 280px) and (max-width: 575px) {
+  .doctor-card-section {
+    padding-left: 0em;
+    justify-content: center;
+  }
+  
+  .doctor-card {
+    width: 21rem;
+    margin-bottom: 2.5em;
+  }
+
+  @media (min-width: 280px) and (max-width: 359px){
+    .doctor-card {
+      width: 17rem;
+      margin-bottom: 2em;
+    }
+  }
+}
