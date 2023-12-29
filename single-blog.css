@@ -686,9 +686,19 @@ blockquote {
     font-weight: 500;
     cursor: pointer;
   }
-  
+
   .blog-list-arrow:nth-child(3){
   background-color: #fbf9ff;
+}
+
+.contact-form {
+  margin-bottom: 20px;
+}
+
+.contact-form .com-title{
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 1.5em;
 }
 
 @media (min-width: 1200px) and (max-width: 1399px) {
