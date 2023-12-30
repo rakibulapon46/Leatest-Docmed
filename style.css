@@ -1210,6 +1210,10 @@ nav .appointment-btn:hover {
 }
 
 @media (min-width: 768px) and (max-width: 991px){
+  nav .appointment-btn {
+    display: none;
+  }
+
   .carousel-caption-no{
     top: 27%;
   }
@@ -1390,6 +1394,10 @@ nav .appointment-btn:hover {
 }
 
 @media (min-width: 576px) and (max-width: 767px){
+  nav .appointment-btn {
+    display: none;
+  }
+
   .cs{
     height: 420px;
   }
@@ -1558,6 +1566,10 @@ padding: 1.5em 0 3.5em 0;
 }
 
 @media (min-width: 280px) and (max-width: 575px){
+  nav .appointment-btn {
+    display: none;
+  }
+  
   .up-nav {
     display: block;
 }
