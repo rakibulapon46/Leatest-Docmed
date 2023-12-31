@@ -114,12 +114,66 @@
               <a class="nav-link" href="./contact.html">Contact</a>
             </li>
           </ul>
-          <button class="btn appointment-btn py-2 rounded-1" type="submit">
+          <button class="btn appointment-btn py-2 rounded-1"  type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
             Make an Appointment
           </button>
         </div>
       </div>
     </nav>
+
+
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-lg">
+    <div class="modal-content rounded-0 p-4">
+      <div class="modal-body">
+        <div class="appointment-section">
+          <h3 class="app-text">Make an Appointment</h3>
+          <form>
+            <div class="row">
+              <div class="col-sm-6">
+                  <input type="text" class="form-controle px-3 py-2" placeholder="Pick date" onfocus="(this.type='date')" onblur="(this.type='text')">
+              </div>
+              <div class="col-sm-6">
+                  <input type="text" class="form-controle px-3 py-2" placeholder="Suitable time" onfocus="(this.type='time')" onblur="(this.type='text')">
+              </div>
+              <div class="col-sm-6">
+                <select name="" id="" class="form-controle my-2">
+                  <option selected>Select Department</option>
+                  <option value="eye" class="option1">Eye Care</option>
+                  <option value="therapy">Physical Therapy</option>
+                  <option value="dental">Dental Care</option>
+                </select>
+              </div>
+              <div class="col-sm-6">
+                <select name="" id="" class="form-controle my-2">
+                  <option selected>Doctors</option>
+                  <option value="Mirazul" class="option1">Mirazul Alom</option>
+                  <option value="Monzul">Monzul Alom</option>
+                  <option value="Azizul">Azizul Islam</option>
+                </select>
+              </div>
+              <div class="col-sm-6">
+                <input type="text" class="form-controle px-3 py-2" placeholder="Name">
+              </div>
+              <div class="col-sm-6">
+                <input type="number" class="form-controle px-3 py-2" placeholder="Phone no.">
+              </div>
+              <div class="col-12">
+                <input type="email" class="form-controle px-3 py-2" placeholder="Email">
+              </div>
+              <div class="col-12">
+                <input type="submit" value="Search" class="confirm-btn">
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<!-- Modal end -->
 
     <section class="section2">
       <div

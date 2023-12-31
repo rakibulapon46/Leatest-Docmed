@@ -144,6 +144,81 @@ nav .appointment-btn:hover {
 }
 /* navbar ends */
 
+.form-controle {
+  font-size: 15px;
+  color: #999;
+  height: 50px;
+  width: 100%;
+}
+
+input[type="text"],
+input[type="time"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+select {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 28px;
+  padding: 0px 10px;
+  box-sizing: border-box;
+  border: 1px solid #f0e9ff;
+  transition: 0.5s;
+  outline: none;
+  margin: 15px 0;
+}
+
+input[type="email"]{
+  margin: 5px 0px 20px 0;
+}
+
+input[type="text"]::placeholder,
+input[type="number"]::placeholder,
+input[type="email"]::placeholder {
+  color: #999;
+}
+
+
+.confirm-btn {
+  background: #0181f5;
+    background: -moz-linear-gradient(left, #0181f5 0%, #5db2ff 100%);
+    background: -webkit-linear-gradient(left, #0181f5 0%, #5db2ff 100%);
+    background: linear-gradient(to right, #0181f5 0%, #5db2ff 100%);
+    color: #fff;
+    display: inline-block;
+    padding: 16px 0px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 500;
+    border: 0;
+    border: 1px solid transparent;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    text-align: center;
+    color: #fff !important;
+    text-transform: capitalize;
+    -webkit-transition: 0.5s;
+    -moz-transition: 0.5s;
+    -o-transition: 0.5s;
+    transition: 0.5s;
+    cursor: pointer;
+    width: 100%;
+}
+
+.confirm-btn:hover{
+  background: #fff;
+  color: #009DFF !important;
+  border: 1px solid #009DFF;
+}
+
+.app-text{
+  text-align: center;
+    font-size: 26px;
+    color: #5DB2FF;
+    margin: 0px 0 20px 0;
+}
+
 /* section 2 carousel starts */
 .carousel-container {
   width: 100%;
@@ -1210,10 +1285,6 @@ nav .appointment-btn:hover {
 }
 
 @media (min-width: 768px) and (max-width: 991px){
-  nav .appointment-btn {
-    display: none;
-  }
-
   .carousel-caption-no{
     top: 27%;
   }
@@ -1394,10 +1465,6 @@ nav .appointment-btn:hover {
 }
 
 @media (min-width: 576px) and (max-width: 767px){
-  nav .appointment-btn {
-    display: none;
-  }
-
   .cs{
     height: 420px;
   }
@@ -1566,10 +1633,6 @@ padding: 1.5em 0 3.5em 0;
 }
 
 @media (min-width: 280px) and (max-width: 575px){
-  nav .appointment-btn {
-    display: none;
-  }
-  
   .up-nav {
     display: block;
 }
@@ -1581,6 +1644,19 @@ padding: 1.5em 0 3.5em 0;
 .up-nav-list-left,
 .up-nav-list-right {
   justify-content: center;
+}
+
+input[type="text"],
+input[type="time"],
+input[type="date"],
+input[type="email"],
+input[type="number"],
+select {
+  margin: 7px 0;
+}
+
+.confirm-btn{
+  margin: 7px 0;
 }
 
   .cs{
