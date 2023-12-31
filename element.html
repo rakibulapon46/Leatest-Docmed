@@ -6,7 +6,7 @@
     <title>Docmed</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="single-blog.css" />
-    <link rel="stylesheet" href="element.css">
+    <link rel="stylesheet" href="element.css" />
     <link
       rel="shortcut icon"
       href="./img/favicon.png.webp"
@@ -74,7 +74,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./department.html">Department</a>
@@ -89,8 +91,12 @@
                 >Blog <i class="fa-solid fa-angle-down"></i>
               </a>
               <ul class="blog-nav-item dropdown-menu border-0 rounded-0 ms-2">
-                <li class="blog-nav-link dropdown-item mb-2"><a href="./blog.html">Blog</a></li>
-                <li class="blog-nav-link dropdown-item"><a href="./single-blog.html">Single-Blog</a></li>
+                <li class="blog-nav-link dropdown-item mb-2">
+                  <a href="./blog.html">Blog</a>
+                </li>
+                <li class="blog-nav-link dropdown-item">
+                  <a href="./single-blog.html">Single-Blog</a>
+                </li>
               </ul>
             </li>
             <li class="nav-item ni-4 dropdown">
@@ -103,8 +109,12 @@
                 >Pages <i class="fa-solid fa-angle-down"></i>
               </a>
               <ul class="pages-nav-item dropdown-menu border-0 rounded-0 ms-2">
-                <li class="pages-nav-link dropdown-item mb-2"><a href="./element.html">Elements</a></li>
-                <li class="pages-nav-link dropdown-item"><a href="./about.html">About</a></li>
+                <li class="pages-nav-link dropdown-item mb-2">
+                  <a href="./element.html">Elements</a>
+                </li>
+                <li class="pages-nav-link dropdown-item">
+                  <a href="./about.html">About</a>
+                </li>
               </ul>
             </li>
             <li class="nav-item">
@@ -114,66 +124,101 @@
               <a class="nav-link" href="./contact.html">Contact</a>
             </li>
           </ul>
-          <button class="btn appointment-btn py-2 rounded-1"  type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button
+            class="btn appointment-btn py-2 rounded-1"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
             Make an Appointment
           </button>
         </div>
       </div>
     </nav>
 
-
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded-0 p-4">
-      <div class="modal-body">
-        <div class="appointment-section">
-          <h3 class="app-text">Make an Appointment</h3>
-          <form>
-            <div class="row">
-              <div class="col-sm-6">
-                  <input type="text" class="form-controle px-3 py-2" placeholder="Pick date" onfocus="(this.type='date')" onblur="(this.type='text')">
-              </div>
-              <div class="col-sm-6">
-                  <input type="text" class="form-controle px-3 py-2" placeholder="Suitable time" onfocus="(this.type='time')" onblur="(this.type='text')">
-              </div>
-              <div class="col-sm-6">
-                <select name="" id="" class="form-controle my-2">
-                  <option selected>Select Department</option>
-                  <option value="eye" class="option1">Eye Care</option>
-                  <option value="therapy">Physical Therapy</option>
-                  <option value="dental">Dental Care</option>
-                </select>
-              </div>
-              <div class="col-sm-6">
-                <select name="" id="" class="form-controle my-2">
-                  <option selected>Doctors</option>
-                  <option value="Mirazul" class="option1">Mirazul Alom</option>
-                  <option value="Monzul">Monzul Alom</option>
-                  <option value="Azizul">Azizul Islam</option>
-                </select>
-              </div>
-              <div class="col-sm-6">
-                <input type="text" class="form-controle px-3 py-2" placeholder="Name">
-              </div>
-              <div class="col-sm-6">
-                <input type="number" class="form-controle px-3 py-2" placeholder="Phone no.">
-              </div>
-              <div class="col-12">
-                <input type="email" class="form-controle px-3 py-2" placeholder="Email">
-              </div>
-              <div class="col-12">
-                <input type="submit" value="Search" class="confirm-btn">
-              </div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content rounded-0 p-4">
+          <div class="modal-body">
+            <div class="appointment-section">
+              <h3 class="app-text">Make an Appointment</h3>
+              <form>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <input
+                      type="text"
+                      class="form-controle px-3 py-2"
+                      placeholder="Pick date"
+                      onfocus="(this.type='date')"
+                      onblur="(this.type='text')"
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <input
+                      type="text"
+                      class="form-controle px-3 py-2"
+                      placeholder="Suitable time"
+                      onfocus="(this.type='time')"
+                      onblur="(this.type='text')"
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <select name="" id="" class="form-controle my-2">
+                      <option selected>Select Department</option>
+                      <option value="eye" class="option1">Eye Care</option>
+                      <option value="therapy">Physical Therapy</option>
+                      <option value="dental">Dental Care</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6">
+                    <select name="" id="" class="form-controle my-2">
+                      <option selected>Doctors</option>
+                      <option value="Mirazul" class="option1">
+                        Mirazul Alom
+                      </option>
+                      <option value="Monzul">Monzul Alom</option>
+                      <option value="Azizul">Azizul Islam</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6">
+                    <input
+                      type="text"
+                      class="form-controle px-3 py-2"
+                      placeholder="Name"
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <input
+                      type="number"
+                      class="form-controle px-3 py-2"
+                      placeholder="Phone no."
+                    />
+                  </div>
+                  <div class="col-12">
+                    <input
+                      type="email"
+                      class="form-controle px-3 py-2"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <input type="submit" value="Search" class="confirm-btn" />
+                  </div>
+                </div>
+              </form>
             </div>
-          </form>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-<!-- Modal end -->
+    <!-- Modal end -->
 
     <section class="section2">
       <div
@@ -192,102 +237,148 @@
     <div class="sample-text-area">
       <div class="container">
         <h3 class="sample-text-title">Text Sample</h3>
-        <p class="sample-text">Every avid independent filmmaker has <b>Bold</b> about making that Italic interest documentary, or short film to show off their creative prowess. Many have great ideas and want to wow the<sup>Superscript</sup> scene, or video renters with their big project. But once you have the<sub>Subscript</sub> “in the can” (no easy feat), how do you move from a <del>Strike</del> through of master DVDs with the <u>“Underline”</u> marked hand-written title inside a secondhand CD case, to a pile of cardboard boxes full of shiny new, retail-ready DVDs, with UPC barcodes and polywrap sitting on your doorstep? You need to create eye-popping artwork and have your project replicated. Using a reputable full service DVD Replication company like PacificDisc, Inc. to partner with is certainly a helpful option to ensure a professional end result, but to help with your DVD replication project, here are 4 easy steps to follow for good DVD replication results:</p>
+        <p class="sample-text">
+          Every avid independent filmmaker has <b>Bold</b> about making that
+          Italic interest documentary, or short film to show off their creative
+          prowess. Many have great ideas and want to wow the<sup
+            >Superscript</sup
+          >
+          scene, or video renters with their big project. But once you have
+          the<sub>Subscript</sub> “in the can” (no easy feat), how do you move
+          from a <del>Strike</del> through of master DVDs with the
+          <u>“Underline”</u> marked hand-written title inside a secondhand CD
+          case, to a pile of cardboard boxes full of shiny new, retail-ready
+          DVDs, with UPC barcodes and polywrap sitting on your doorstep? You
+          need to create eye-popping artwork and have your project replicated.
+          Using a reputable full service DVD Replication company like
+          PacificDisc, Inc. to partner with is certainly a helpful option to
+          ensure a professional end result, but to help with your DVD
+          replication project, here are 4 easy steps to follow for good DVD
+          replication results:
+        </p>
       </div>
     </div>
 
-
     <div class="container button-area">
-        <h3 class="sample-text-title">Sample Buttons</h3>
-        <div class="button-group-area">
-          <a href="./element.html" class="genric-btn default">Default</a>
-          <a href="./element.html" class="genric-btn primary">Primary</a>
-          <a href="./element.html" class="genric-btn success">Success</a>
-          <a href="./element.html" class="genric-btn info">Info</a>
-          <a href="./element.html" class="genric-btn warning">Warning</a>
-          <a href="./element.html" class="genric-btn danger">Danger</a>
-          <a href="./element.html" class="genric-btn link">Link</a>
-          <a href="./element.html" class="genric-btn disable">Disable</a>
-        </div>
-
-        <div class="button-group-area">
-          <a href="./element.html" class="genric-btn default-border">Default</a>
-          <a href="./element.html" class="genric-btn primary-border">Primary</a>
-          <a href="./element.html" class="genric-btn success-border">Success</a>
-          <a href="./element.html" class="genric-btn info-border">Info</a>
-          <a href="./element.html" class="genric-btn warning-border">Warning</a>
-          <a href="./element.html" class="genric-btn danger-border">Danger</a>
-          <a href="./element.html" class="genric-btn link-border">Link</a>
-          <a href="./element.html" class="genric-btn disable">Disable</a>
-        </div>
-
-        <div class="button-group-area">
-          <a href="./element.html" class="genric-btn default radius">Default</a>
-          <a href="./element.html" class="genric-btn radius primary">Primary</a>
-          <a href="./element.html" class="genric-btn radius success">Success</a>
-          <a href="./element.html" class="genric-btn radius info">Info</a>
-          <a href="./element.html" class="genric-btn radius warning">Warning</a>
-          <a href="./element.html" class="genric-btn radius danger">Danger</a>
-          <a href="./element.html" class="genric-btn radius link">Link</a>
-          <a href="./element.html" class="genric-btn radius disable">Disable</a>
-        </div>
-
-        <div class="button-group-area">
-          <a href="./element.html" class="genric-btn radius default-border">Default</a>
-          <a href="./element.html" class="genric-btn radius primary-border">Primary</a>
-          <a href="./element.html" class="genric-btn radius success-border">Success</a>
-          <a href="./element.html" class="genric-btn radius info-border">Info</a>
-          <a href="./element.html" class="genric-btn radius warning-border">Warning</a>
-          <a href="./element.html" class="genric-btn radius danger-border">Danger</a>
-          <a href="./element.html" class="genric-btn radius link-border">Link</a>
-          <a href="./element.html" class="genric-btn radius disable">Disable</a>
-        </div>
-
-        <div class="button-group-area">
-          <a href="./element.html" class="genric-btn circle default">Default</a>
-          <a href="./element.html" class="genric-btn circle primary">Primary</a>
-          <a href="./element.html" class="genric-btn circle success">Success</a>
-          <a href="./element.html" class="genric-btn circle info">Info</a>
-          <a href="./element.html" class="genric-btn circle warning">Warning</a>
-          <a href="./element.html" class="genric-btn circle danger">Danger</a>
-          <a href="./element.html" class="genric-btn circle link">Link</a>
-          <a href="./element.html" class="genric-btn circle disable">Disable</a>
-        </div>
-
-        <div class="button-group-area">
-          <a href="./element.html" class="genric-btn circle default-border">Default</a>
-          <a href="./element.html" class="genric-btn circle primary-border">Primary</a>
-          <a href="./element.html" class="genric-btn circle success-border">Success</a>
-          <a href="./element.html" class="genric-btn circle info-border">Info</a>
-          <a href="./element.html" class="genric-btn circle warning-border">Warning</a>
-          <a href="./element.html" class="genric-btn circle danger-border">Danger</a>
-          <a href="./element.html" class="genric-btn circle link-border">Link</a>
-          <a href="./element.html" class="genric-btn circle disable">Disable</a>
-        </div>
-
-        <div class="button-group-area">
-          <a href="./element.html" class="genric-btn primary e-large">Extra Large</a>
-          <a href="./element.html" class="genric-btn success large">Large</a>
-          <a href="./element.html" class="genric-btn primary">Default</a>
-          <a href="./element.html" class="genric-btn success medium">Medium</a>
-          <a href="./element.html" class="genric-btn primary small">Small</a>
-        </div>
-
-        <div class="button-group-area">
-          <a href="./element.html" class="genric-btn primary-border e-large">Extra Large</a>
-          <a href="./element.html" class="genric-btn success-border large">Large</a>
-          <a href="./element.html" class="genric-btn primary-border">Default</a>
-          <a href="./element.html" class="genric-btn success-border medium">Medium</a>
-          <a href="./element.html" class="genric-btn primary-border small">Small</a>
-        </div>
+      <h3 class="sample-text-title">Sample Buttons</h3>
+      <div class="button-group-area">
+        <a href="./element.html" class="genric-btn default">Default</a>
+        <a href="./element.html" class="genric-btn primary">Primary</a>
+        <a href="./element.html" class="genric-btn success">Success</a>
+        <a href="./element.html" class="genric-btn info">Info</a>
+        <a href="./element.html" class="genric-btn warning">Warning</a>
+        <a href="./element.html" class="genric-btn danger">Danger</a>
+        <a href="./element.html" class="genric-btn link">Link</a>
+        <a href="./element.html" class="genric-btn disable">Disable</a>
       </div>
 
+      <div class="button-group-area">
+        <a href="./element.html" class="genric-btn default-border">Default</a>
+        <a href="./element.html" class="genric-btn primary-border">Primary</a>
+        <a href="./element.html" class="genric-btn success-border">Success</a>
+        <a href="./element.html" class="genric-btn info-border">Info</a>
+        <a href="./element.html" class="genric-btn warning-border">Warning</a>
+        <a href="./element.html" class="genric-btn danger-border">Danger</a>
+        <a href="./element.html" class="genric-btn link-border">Link</a>
+        <a href="./element.html" class="genric-btn disable">Disable</a>
+      </div>
 
-      <section class="section11">
-        <div class="container">
-          <div class="row f-row">
-            <div class="col-xl-4 col-md-6 col-lg-4">
-              <div class="footer-widget">
+      <div class="button-group-area">
+        <a href="./element.html" class="genric-btn default radius">Default</a>
+        <a href="./element.html" class="genric-btn radius primary">Primary</a>
+        <a href="./element.html" class="genric-btn radius success">Success</a>
+        <a href="./element.html" class="genric-btn radius info">Info</a>
+        <a href="./element.html" class="genric-btn radius warning">Warning</a>
+        <a href="./element.html" class="genric-btn radius danger">Danger</a>
+        <a href="./element.html" class="genric-btn radius link">Link</a>
+        <a href="./element.html" class="genric-btn radius disable">Disable</a>
+      </div>
+
+      <div class="button-group-area">
+        <a href="./element.html" class="genric-btn radius default-border"
+          >Default</a
+        >
+        <a href="./element.html" class="genric-btn radius primary-border"
+          >Primary</a
+        >
+        <a href="./element.html" class="genric-btn radius success-border"
+          >Success</a
+        >
+        <a href="./element.html" class="genric-btn radius info-border">Info</a>
+        <a href="./element.html" class="genric-btn radius warning-border"
+          >Warning</a
+        >
+        <a href="./element.html" class="genric-btn radius danger-border"
+          >Danger</a
+        >
+        <a href="./element.html" class="genric-btn radius link-border">Link</a>
+        <a href="./element.html" class="genric-btn radius disable">Disable</a>
+      </div>
+
+      <div class="button-group-area">
+        <a href="./element.html" class="genric-btn circle default">Default</a>
+        <a href="./element.html" class="genric-btn circle primary">Primary</a>
+        <a href="./element.html" class="genric-btn circle success">Success</a>
+        <a href="./element.html" class="genric-btn circle info">Info</a>
+        <a href="./element.html" class="genric-btn circle warning">Warning</a>
+        <a href="./element.html" class="genric-btn circle danger">Danger</a>
+        <a href="./element.html" class="genric-btn circle link">Link</a>
+        <a href="./element.html" class="genric-btn circle disable">Disable</a>
+      </div>
+
+      <div class="button-group-area">
+        <a href="./element.html" class="genric-btn circle default-border"
+          >Default</a
+        >
+        <a href="./element.html" class="genric-btn circle primary-border"
+          >Primary</a
+        >
+        <a href="./element.html" class="genric-btn circle success-border"
+          >Success</a
+        >
+        <a href="./element.html" class="genric-btn circle info-border">Info</a>
+        <a href="./element.html" class="genric-btn circle warning-border"
+          >Warning</a
+        >
+        <a href="./element.html" class="genric-btn circle danger-border"
+          >Danger</a
+        >
+        <a href="./element.html" class="genric-btn circle link-border">Link</a>
+        <a href="./element.html" class="genric-btn circle disable">Disable</a>
+      </div>
+
+      <div class="button-group-area">
+        <a href="./element.html" class="genric-btn primary e-large"
+          >Extra Large</a
+        >
+        <a href="./element.html" class="genric-btn success large">Large</a>
+        <a href="./element.html" class="genric-btn primary">Default</a>
+        <a href="./element.html" class="genric-btn success medium">Medium</a>
+        <a href="./element.html" class="genric-btn primary small">Small</a>
+      </div>
+
+      <div class="button-group-area">
+        <a href="./element.html" class="genric-btn primary-border e-large"
+          >Extra Large</a
+        >
+        <a href="./element.html" class="genric-btn success-border large"
+          >Large</a
+        >
+        <a href="./element.html" class="genric-btn primary-border">Default</a>
+        <a href="./element.html" class="genric-btn success-border medium"
+          >Medium</a
+        >
+        <a href="./element.html" class="genric-btn primary-border small"
+          >Small</a
+        >
+      </div>
+    </div>
+
+    <section class="section11">
+      <div class="container">
+        <div class="row f-row">
+          <div class="col-xl-4 col-md-6 col-lg-4">
+            <div class="footer-widget">
               <div class="footer-logo">
                 <a href="./element.html">
                   <img src="./img/footer_logo.png.webp" alt="img" />
@@ -300,13 +391,19 @@
               <div class="social-links">
                 <ul>
                   <li>
-                    <a href="./element.html"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="./element.html"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
                   </li>
                   <li>
-                    <a href="./element.html"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="./element.html"
+                      ><i class="fa-brands fa-x-twitter"></i
+                    ></a>
                   </li>
                   <li>
-                    <a href="./element.html"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="./element.html"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
                   </li>
                 </ul>
               </div>
