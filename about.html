@@ -73,7 +73,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./department.html">Department</a>
@@ -88,8 +90,12 @@
                 >Blog <i class="fa-solid fa-angle-down"></i>
               </a>
               <ul class="blog-nav-item dropdown-menu border-0 rounded-0 ms-2">
-                <li class="blog-nav-link dropdown-item mb-2"><a href="./blog.html">Blog</a></li>
-                <li class="blog-nav-link dropdown-item"><a href="./single-blog.html">Single-Blog</a></li>
+                <li class="blog-nav-link dropdown-item mb-2">
+                  <a href="./blog.html">Blog</a>
+                </li>
+                <li class="blog-nav-link dropdown-item">
+                  <a href="./single-blog.html">Single-Blog</a>
+                </li>
               </ul>
             </li>
             <li class="nav-item ni-4 dropdown">
@@ -102,8 +108,12 @@
                 >Pages <i class="fa-solid fa-angle-down"></i>
               </a>
               <ul class="pages-nav-item dropdown-menu border-0 rounded-0 ms-2">
-                <li class="pages-nav-link dropdown-item mb-2"><a href="./element.html">Elements</a></li>
-                <li class="pages-nav-link dropdown-item"><a href="./about.html">About</a></li>
+                <li class="pages-nav-link dropdown-item mb-2">
+                  <a href="./element.html">Elements</a>
+                </li>
+                <li class="pages-nav-link dropdown-item">
+                  <a href="./about.html">About</a>
+                </li>
               </ul>
             </li>
             <li class="nav-item">
@@ -113,66 +123,101 @@
               <a class="nav-link" href="./contact.html">Contact</a>
             </li>
           </ul>
-          <button class="btn appointment-btn py-2 rounded-1"  type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button
+            class="btn appointment-btn py-2 rounded-1"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
             Make an Appointment
           </button>
         </div>
       </div>
     </nav>
 
-
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded-0 p-4">
-      <div class="modal-body">
-        <div class="appointment-section">
-          <h3 class="app-text">Make an Appointment</h3>
-          <form>
-            <div class="row">
-              <div class="col-sm-6">
-                  <input type="text" class="form-controle px-3 py-2" placeholder="Pick date" onfocus="(this.type='date')" onblur="(this.type='text')">
-              </div>
-              <div class="col-sm-6">
-                  <input type="text" class="form-controle px-3 py-2" placeholder="Suitable time" onfocus="(this.type='time')" onblur="(this.type='text')">
-              </div>
-              <div class="col-sm-6">
-                <select name="" id="" class="form-controle my-2">
-                  <option selected>Select Department</option>
-                  <option value="eye" class="option1">Eye Care</option>
-                  <option value="therapy">Physical Therapy</option>
-                  <option value="dental">Dental Care</option>
-                </select>
-              </div>
-              <div class="col-sm-6">
-                <select name="" id="" class="form-controle my-2">
-                  <option selected>Doctors</option>
-                  <option value="Mirazul" class="option1">Mirazul Alom</option>
-                  <option value="Monzul">Monzul Alom</option>
-                  <option value="Azizul">Azizul Islam</option>
-                </select>
-              </div>
-              <div class="col-sm-6">
-                <input type="text" class="form-controle px-3 py-2" placeholder="Name">
-              </div>
-              <div class="col-sm-6">
-                <input type="number" class="form-controle px-3 py-2" placeholder="Phone no.">
-              </div>
-              <div class="col-12">
-                <input type="email" class="form-controle px-3 py-2" placeholder="Email">
-              </div>
-              <div class="col-12">
-                <input type="submit" value="Search" class="confirm-btn">
-              </div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content rounded-0 p-4">
+          <div class="modal-body">
+            <div class="appointment-section">
+              <h3 class="app-text">Make an Appointment</h3>
+              <form>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <input
+                      type="text"
+                      class="form-controle px-3 py-2"
+                      placeholder="Pick date"
+                      onfocus="(this.type='date')"
+                      onblur="(this.type='text')"
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <input
+                      type="text"
+                      class="form-controle px-3 py-2"
+                      placeholder="Suitable time"
+                      onfocus="(this.type='time')"
+                      onblur="(this.type='text')"
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <select name="" id="" class="form-controle my-2">
+                      <option selected>Select Department</option>
+                      <option value="eye" class="option1">Eye Care</option>
+                      <option value="therapy">Physical Therapy</option>
+                      <option value="dental">Dental Care</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6">
+                    <select name="" id="" class="form-controle my-2">
+                      <option selected>Doctors</option>
+                      <option value="Mirazul" class="option1">
+                        Mirazul Alom
+                      </option>
+                      <option value="Monzul">Monzul Alom</option>
+                      <option value="Azizul">Azizul Islam</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6">
+                    <input
+                      type="text"
+                      class="form-controle px-3 py-2"
+                      placeholder="Name"
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <input
+                      type="number"
+                      class="form-controle px-3 py-2"
+                      placeholder="Phone no."
+                    />
+                  </div>
+                  <div class="col-12">
+                    <input
+                      type="email"
+                      class="form-controle px-3 py-2"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <input type="submit" value="Search" class="confirm-btn" />
+                  </div>
+                </div>
+              </form>
             </div>
-          </form>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-<!-- Modal end -->
+    <!-- Modal end -->
 
     <section class="section2">
       <div
@@ -393,7 +438,9 @@
                 <img src="./img/c2.webp" class="card-img-top" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="./about.html">Physical Therapy</a></h5>
+                <h5 class="card-title">
+                  <a href="./about.html">Physical Therapy</a>
+                </h5>
                 <p class="card-text">
                   Esteem spirit temper too say adieus who direct esteem.
                 </p>
@@ -408,7 +455,9 @@
                 <img src="./img/c3.webp" class="card-img-top" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="./about.html">Dental Care</a></h5>
+                <h5 class="card-title">
+                  <a href="./about.html">Dental Care</a>
+                </h5>
                 <p class="card-text">
                   Esteem spirit temper too say adieus who direct esteem.
                 </p>
@@ -423,7 +472,9 @@
                 <img src="./img/c4.webp" class="card-img-top" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="./about.html">Diagnostic Test</a></h5>
+                <h5 class="card-title">
+                  <a href="./about.html">Diagnostic Test</a>
+                </h5>
                 <p class="card-text">
                   Esteem spirit temper too say adieus who direct esteem.
                 </p>
@@ -438,7 +489,9 @@
                 <img src="./img/c5.webp" class="card-img-top" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="./about.html">Skin Surgerye</a></h5>
+                <h5 class="card-title">
+                  <a href="./about.html">Skin Surgerye</a>
+                </h5>
                 <p class="card-text">
                   Esteem spirit temper too say adieus who direct esteem.
                 </p>
@@ -453,7 +506,9 @@
                 <img src="./img/c6.webp" class="card-img-top" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="./about.html">Surgery Service</a></h5>
+                <h5 class="card-title">
+                  <a href="./about.html">Surgery Service</a>
+                </h5>
                 <p class="card-text">
                   Esteem spirit temper too say adieus who direct esteem.
                 </p>
@@ -748,7 +803,9 @@
                 <p>Esteem spirit temper too say adieus.</p>
               </div>
               <div class="em-btn">
-                <a href="./about.html" class="boxed-btn3-white">+10 378 4673 467</a>
+                <a href="./about.html" class="boxed-btn3-white"
+                  >+10 378 4673 467</a
+                >
               </div>
             </div>
           </div>
@@ -760,7 +817,9 @@
                 <p>Esteem spirit temper too say adieus.</p>
               </div>
               <div class="em-btn">
-                <a href="./about.html" class="boxed-btn3-white">Make An Appointment</a>
+                <a href="./about.html" class="boxed-btn3-white"
+                  >Make An Appointment</a
+                >
               </div>
             </div>
           </div>
@@ -785,13 +844,19 @@
               <div class="social-links">
                 <ul>
                   <li>
-                    <a href="./about.html"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="./about.html"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
                   </li>
                   <li>
-                    <a href="./about.html"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="./about.html"
+                      ><i class="fa-brands fa-x-twitter"></i
+                    ></a>
                   </li>
                   <li>
-                    <a href="./about.html"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="./about.html"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
                   </li>
                 </ul>
               </div>

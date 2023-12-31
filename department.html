@@ -73,7 +73,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./department.html">Department</a>
@@ -88,8 +90,12 @@
                 >Blog <i class="fa-solid fa-angle-down"></i>
               </a>
               <ul class="blog-nav-item dropdown-menu border-0 rounded-0 ms-2">
-                <li class="blog-nav-link dropdown-item mb-2"><a href="./blog.html">Blog</a></li>
-                <li class="blog-nav-link dropdown-item"><a href="./single-blog.html">Single-Blog</a></li>
+                <li class="blog-nav-link dropdown-item mb-2">
+                  <a href="./blog.html">Blog</a>
+                </li>
+                <li class="blog-nav-link dropdown-item">
+                  <a href="./single-blog.html">Single-Blog</a>
+                </li>
               </ul>
             </li>
             <li class="nav-item ni-4 dropdown">
@@ -102,8 +108,12 @@
                 >Pages <i class="fa-solid fa-angle-down"></i>
               </a>
               <ul class="pages-nav-item dropdown-menu border-0 rounded-0 ms-2">
-                <li class="pages-nav-link dropdown-item mb-2"><a href="./element.html">Elements</a></li>
-                <li class="pages-nav-link dropdown-item"><a href="./about.html">About</a></li>
+                <li class="pages-nav-link dropdown-item mb-2">
+                  <a href="./element.html">Elements</a>
+                </li>
+                <li class="pages-nav-link dropdown-item">
+                  <a href="./about.html">About</a>
+                </li>
               </ul>
             </li>
             <li class="nav-item">
@@ -113,158 +123,193 @@
               <a class="nav-link" href="./contact.html">Contact</a>
             </li>
           </ul>
-          <button class="btn appointment-btn py-2 rounded-1"  type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button
+            class="btn appointment-btn py-2 rounded-1"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
             Make an Appointment
           </button>
         </div>
       </div>
     </nav>
 
-
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded-0 p-4">
-      <div class="modal-body">
-        <div class="appointment-section">
-          <h3 class="app-text">Make an Appointment</h3>
-          <form>
-            <div class="row">
-              <div class="col-sm-6">
-                  <input type="text" class="form-controle px-3 py-2" placeholder="Pick date" onfocus="(this.type='date')" onblur="(this.type='text')">
-              </div>
-              <div class="col-sm-6">
-                  <input type="text" class="form-controle px-3 py-2" placeholder="Suitable time" onfocus="(this.type='time')" onblur="(this.type='text')">
-              </div>
-              <div class="col-sm-6">
-                <select name="" id="" class="form-controle my-2">
-                  <option selected>Select Department</option>
-                  <option value="eye" class="option1">Eye Care</option>
-                  <option value="therapy">Physical Therapy</option>
-                  <option value="dental">Dental Care</option>
-                </select>
-              </div>
-              <div class="col-sm-6">
-                <select name="" id="" class="form-controle my-2">
-                  <option selected>Doctors</option>
-                  <option value="Mirazul" class="option1">Mirazul Alom</option>
-                  <option value="Monzul">Monzul Alom</option>
-                  <option value="Azizul">Azizul Islam</option>
-                </select>
-              </div>
-              <div class="col-sm-6">
-                <input type="text" class="form-controle px-3 py-2" placeholder="Name">
-              </div>
-              <div class="col-sm-6">
-                <input type="number" class="form-controle px-3 py-2" placeholder="Phone no.">
-              </div>
-              <div class="col-12">
-                <input type="email" class="form-controle px-3 py-2" placeholder="Email">
-              </div>
-              <div class="col-12">
-                <input type="submit" value="Search" class="confirm-btn">
-              </div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content rounded-0 p-4">
+          <div class="modal-body">
+            <div class="appointment-section">
+              <h3 class="app-text">Make an Appointment</h3>
+              <form>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <input
+                      type="text"
+                      class="form-controle px-3 py-2"
+                      placeholder="Pick date"
+                      onfocus="(this.type='date')"
+                      onblur="(this.type='text')"
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <input
+                      type="text"
+                      class="form-controle px-3 py-2"
+                      placeholder="Suitable time"
+                      onfocus="(this.type='time')"
+                      onblur="(this.type='text')"
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <select name="" id="" class="form-controle my-2">
+                      <option selected>Select Department</option>
+                      <option value="eye" class="option1">Eye Care</option>
+                      <option value="therapy">Physical Therapy</option>
+                      <option value="dental">Dental Care</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6">
+                    <select name="" id="" class="form-controle my-2">
+                      <option selected>Doctors</option>
+                      <option value="Mirazul" class="option1">
+                        Mirazul Alom
+                      </option>
+                      <option value="Monzul">Monzul Alom</option>
+                      <option value="Azizul">Azizul Islam</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6">
+                    <input
+                      type="text"
+                      class="form-controle px-3 py-2"
+                      placeholder="Name"
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <input
+                      type="number"
+                      class="form-controle px-3 py-2"
+                      placeholder="Phone no."
+                    />
+                  </div>
+                  <div class="col-12">
+                    <input
+                      type="email"
+                      class="form-controle px-3 py-2"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <input type="submit" value="Search" class="confirm-btn" />
+                  </div>
+                </div>
+              </form>
             </div>
-          </form>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-<!-- Modal end -->
+    <!-- Modal end -->
 
     <section class="section2">
-        <div
+      <div
         class="service-area"
         style="background-image: url('./img/bradcam.png.webp')"
-        >
+      >
         <div class="container">
-        <div class="service-text ps-4">
+          <div class="service-text ps-4">
             <h3>Services</h3>
-      <p>Home / Services</p>
+            <p>Home / Services</p>
+          </div>
         </div>
-      </div>
       </div>
     </section>
 
     <section class="d-none">
-        <div class="carousel-container">
-          <div class="carousel-slide" id="carousel-slide1">
-            <div
-              class="carousel-item-no cs"
-              style="background-image: url('./img/banner2.png.webp')"
-            >
-              <div class="carousel-caption-no">
-                <div class="text">
-                  <h2 class="bold-text">Health Care</h2>
-                  <h3 class="thin-text">For Hole Family</h3>
-                  <p class="text-p">
-                    In healthcare sector, service excellence is the facility of
-                    <br />
-                    the hospital as healthcare service provider to consistently.
-                  </p>
-                  <a class="check-btn" href="./department.html" target="_blank"
-                    >Check Our Services</a
-                  >
-                </div>
+      <div class="carousel-container">
+        <div class="carousel-slide" id="carousel-slide1">
+          <div
+            class="carousel-item-no cs"
+            style="background-image: url('./img/banner2.png.webp')"
+          >
+            <div class="carousel-caption-no">
+              <div class="text">
+                <h2 class="bold-text">Health Care</h2>
+                <h3 class="thin-text">For Hole Family</h3>
+                <p class="text-p">
+                  In healthcare sector, service excellence is the facility of
+                  <br />
+                  the hospital as healthcare service provider to consistently.
+                </p>
+                <a class="check-btn" href="./department.html" target="_blank"
+                  >Check Our Services</a
+                >
               </div>
             </div>
-            <div
-              class="carousel-item-no cs"
-              style="background-image: url('./img/banner.png.webp')"
-            >
-              <div class="carousel-caption-no">
-                <div class="text">
-                  <h2 class="bold-text">Health Care</h2>
-                  <h3 class="thin-text">For Hole Family</h3>
-                  <p class="text-p">
-                    In healthcare sector, service excellence is the facility of
-                    <br />
-                    the hospital as healthcare service provider to consistently.
-                  </p>
-                  <a class="check-btn" href="./department.html" target="_blank"
-                    >Check Our Services</a
-                  >
-                </div>
+          </div>
+          <div
+            class="carousel-item-no cs"
+            style="background-image: url('./img/banner.png.webp')"
+          >
+            <div class="carousel-caption-no">
+              <div class="text">
+                <h2 class="bold-text">Health Care</h2>
+                <h3 class="thin-text">For Hole Family</h3>
+                <p class="text-p">
+                  In healthcare sector, service excellence is the facility of
+                  <br />
+                  the hospital as healthcare service provider to consistently.
+                </p>
+                <a class="check-btn" href="./department.html" target="_blank"
+                  >Check Our Services</a
+                >
               </div>
             </div>
-            <div
-              class="carousel-item-no cs"
-              style="background-image: url('./img/banner2.png.webp')"
-            >
-              <div class="carousel-caption-no">
-                <div class="text">
-                  <h2 class="bold-text">Health Care</h2>
-                  <h3 class="thin-text">For Hole Family</h3>
-                  <p class="text-p">
-                    In healthcare sector, service excellence is the facility of
-                    <br />
-                    the hospital as healthcare service provider to consistently.
-                  </p>
-                  <a class="check-btn" href="./department.html" target="_blank"
-                    >Check Our Services</a
-                  >
-                </div>
+          </div>
+          <div
+            class="carousel-item-no cs"
+            style="background-image: url('./img/banner2.png.webp')"
+          >
+            <div class="carousel-caption-no">
+              <div class="text">
+                <h2 class="bold-text">Health Care</h2>
+                <h3 class="thin-text">For Hole Family</h3>
+                <p class="text-p">
+                  In healthcare sector, service excellence is the facility of
+                  <br />
+                  the hospital as healthcare service provider to consistently.
+                </p>
+                <a class="check-btn" href="./department.html" target="_blank"
+                  >Check Our Services</a
+                >
               </div>
             </div>
-            <!-- Add more images and captions as needed -->
           </div>
-  
-          <!-- <div class="slides-arrow"> -->
-          <div class="slides-left-arrow">
-            <div class="prev" id="prev1">
-              <i class="fa-solid fa-angle-left"></i>
-            </div>
-          </div>
-          <div class="slides-right-arrow">
-            <div class="next" id="next1">
-              <i class="fa-solid fa-angle-right"></i>
-            </div>
-          </div>
-          <!-- </div> -->
+          <!-- Add more images and captions as needed -->
         </div>
-      </section>
+
+        <!-- <div class="slides-arrow"> -->
+        <div class="slides-left-arrow">
+          <div class="prev" id="prev1">
+            <i class="fa-solid fa-angle-left"></i>
+          </div>
+        </div>
+        <div class="slides-right-arrow">
+          <div class="next" id="next1">
+            <i class="fa-solid fa-angle-right"></i>
+          </div>
+        </div>
+        <!-- </div> -->
+      </div>
+    </section>
 
     <section class="section3">
       <div class="container">
@@ -281,7 +326,9 @@
                 Clinical excellence must be the priority for any health care
                 service provider.
               </p>
-              <a class="contact-btn" href="./department.html">Apply For A Bed</a>
+              <a class="contact-btn" href="./department.html"
+                >Apply For A Bed</a
+              >
             </div>
           </div>
           <div class="col-md-4 c2">
@@ -296,7 +343,9 @@
                 Clinical excellence must be the priority for any health care
                 service provider.
               </p>
-              <a class="contact-btn" href="./department.html">+10 672 356 3567</a>
+              <a class="contact-btn" href="./department.html"
+                >+10 672 356 3567</a
+              >
             </div>
           </div>
           <div class="col-md-4">
@@ -311,7 +360,9 @@
                 Clinical excellence must be the priority for any health care
                 service provider.
               </p>
-              <a class="contact-btn" href="./department.html">Make An Appointment</a>
+              <a class="contact-btn" href="./department.html"
+                >Make An Appointment</a
+              >
             </div>
           </div>
         </div>
@@ -378,7 +429,9 @@
                 <img src="./img/c1.webp" class="card-img-top" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="./department.html">Eye Care</a></h5>
+                <h5 class="card-title">
+                  <a href="./department.html">Eye Care</a>
+                </h5>
                 <p class="card-text">
                   Esteem spirit temper too say adieus who direct esteem.
                 </p>
@@ -393,11 +446,15 @@
                 <img src="./img/c2.webp" class="card-img-top" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="./department.html">Physical Therapy</a></h5>
+                <h5 class="card-title">
+                  <a href="./department.html">Physical Therapy</a>
+                </h5>
                 <p class="card-text">
                   Esteem spirit temper too say adieus who direct esteem.
                 </p>
-                <a href="./department.html" class="./department.html">Learn More</a>
+                <a href="./department.html" class="./department.html"
+                  >Learn More</a
+                >
               </div>
             </div>
           </div>
@@ -408,11 +465,15 @@
                 <img src="./img/c3.webp" class="card-img-top" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="./department.html">Dental Care</a></h5>
+                <h5 class="card-title">
+                  <a href="./department.html">Dental Care</a>
+                </h5>
                 <p class="card-text">
                   Esteem spirit temper too say adieus who direct esteem.
                 </p>
-                <a href="./department.html" class="./department.html">Learn More</a>
+                <a href="./department.html" class="./department.html"
+                  >Learn More</a
+                >
               </div>
             </div>
           </div>
@@ -423,11 +484,15 @@
                 <img src="./img/c4.webp" class="card-img-top" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="./department.html">Diagnostic Test</a></h5>
+                <h5 class="card-title">
+                  <a href="./department.html">Diagnostic Test</a>
+                </h5>
                 <p class="card-text">
                   Esteem spirit temper too say adieus who direct esteem.
                 </p>
-                <a href="./department.html" class="./department.html">Learn More</a>
+                <a href="./department.html" class="./department.html"
+                  >Learn More</a
+                >
               </div>
             </div>
           </div>
@@ -438,11 +503,15 @@
                 <img src="./img/c5.webp" class="card-img-top" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="./department.html">Skin Surgerye</a></h5>
+                <h5 class="card-title">
+                  <a href="./department.html">Skin Surgerye</a>
+                </h5>
                 <p class="card-text">
                   Esteem spirit temper too say adieus who direct esteem.
                 </p>
-                <a href="./department.html" class="./department.html">Learn More</a>
+                <a href="./department.html" class="./department.html"
+                  >Learn More</a
+                >
               </div>
             </div>
           </div>
@@ -453,11 +522,15 @@
                 <img src="./img/c6.webp" class="card-img-top" alt="..." />
               </div>
               <div class="card-body">
-                <h5 class="card-title"><a href="./department.html">Surgery Service</a></h5>
+                <h5 class="card-title">
+                  <a href="./department.html">Surgery Service</a>
+                </h5>
                 <p class="card-text">
                   Esteem spirit temper too say adieus who direct esteem.
                 </p>
-                <a href="./department.html" class="./department.html">Learn More</a>
+                <a href="./department.html" class="./department.html"
+                  >Learn More</a
+                >
               </div>
             </div>
           </div>
@@ -748,7 +821,9 @@
                 <p>Esteem spirit temper too say adieus.</p>
               </div>
               <div class="em-btn">
-                <a href="./department.html" class="boxed-btn3-white">+10 378 4673 467</a>
+                <a href="./department.html" class="boxed-btn3-white"
+                  >+10 378 4673 467</a
+                >
               </div>
             </div>
           </div>
@@ -760,7 +835,9 @@
                 <p>Esteem spirit temper too say adieus.</p>
               </div>
               <div class="em-btn">
-                <a href="./department.html" class="boxed-btn3-white">Make An Appointment</a>
+                <a href="./department.html" class="boxed-btn3-white"
+                  >Make An Appointment</a
+                >
               </div>
             </div>
           </div>
@@ -785,13 +862,19 @@
               <div class="social-links">
                 <ul>
                   <li>
-                    <a href="./department.html"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="./department.html"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
                   </li>
                   <li>
-                    <a href="./department.html"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="./department.html"
+                      ><i class="fa-brands fa-x-twitter"></i
+                    ></a>
                   </li>
                   <li>
-                    <a href="./department.html"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="./department.html"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
                   </li>
                 </ul>
               </div>
@@ -850,7 +933,9 @@
               All rights reserved | This template is made with
               <i class="fa-solid fa-heart"></i>
               by
-              <a href="https://www.facebook.com/rakibul.apon79/" target="_blank">Rakibul Apon</a>
+              <a href="https://www.facebook.com/rakibul.apon79/" target="_blank"
+                >Rakibul Apon</a
+              >
             </p>
           </div>
         </div>

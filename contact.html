@@ -73,7 +73,9 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav m-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+              <a class="nav-link" aria-current="page" href="./index.html"
+                >Home</a
+              >
             </li>
             <li class="nav-item">
               <a class="nav-link" href="./department.html">Department</a>
@@ -88,8 +90,12 @@
                 >Blog <i class="fa-solid fa-angle-down"></i>
               </a>
               <ul class="blog-nav-item dropdown-menu border-0 rounded-0 ms-2">
-                <li class="blog-nav-link dropdown-item mb-2"><a href="./blog.html">Blog</a></li>
-                <li class="blog-nav-link dropdown-item"><a href="./single-blog.html">Single-Blog</a></li>
+                <li class="blog-nav-link dropdown-item mb-2">
+                  <a href="./blog.html">Blog</a>
+                </li>
+                <li class="blog-nav-link dropdown-item">
+                  <a href="./single-blog.html">Single-Blog</a>
+                </li>
               </ul>
             </li>
             <li class="nav-item ni-4 dropdown">
@@ -102,8 +108,12 @@
                 >Pages <i class="fa-solid fa-angle-down"></i>
               </a>
               <ul class="pages-nav-item dropdown-menu border-0 rounded-0 ms-2">
-                <li class="pages-nav-link dropdown-item mb-2"><a href="./element.html">Elements</a></li>
-                <li class="pages-nav-link dropdown-item"><a href="./about.html">About</a></li>
+                <li class="pages-nav-link dropdown-item mb-2">
+                  <a href="./element.html">Elements</a>
+                </li>
+                <li class="pages-nav-link dropdown-item">
+                  <a href="./about.html">About</a>
+                </li>
               </ul>
             </li>
             <li class="nav-item">
@@ -113,66 +123,101 @@
               <a class="nav-link" href="./contact.html">Contact</a>
             </li>
           </ul>
-          <button class="btn appointment-btn py-2 rounded-1"  type="button" data-bs-toggle="modal" data-bs-target="#exampleModal">
+          <button
+            class="btn appointment-btn py-2 rounded-1"
+            type="button"
+            data-bs-toggle="modal"
+            data-bs-target="#exampleModal"
+          >
             Make an Appointment
           </button>
         </div>
       </div>
     </nav>
 
-
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered modal-lg">
-    <div class="modal-content rounded-0 p-4">
-      <div class="modal-body">
-        <div class="appointment-section">
-          <h3 class="app-text">Make an Appointment</h3>
-          <form>
-            <div class="row">
-              <div class="col-sm-6">
-                  <input type="text" class="form-controle px-3 py-2" placeholder="Pick date" onfocus="(this.type='date')" onblur="(this.type='text')">
-              </div>
-              <div class="col-sm-6">
-                  <input type="text" class="form-controle px-3 py-2" placeholder="Suitable time" onfocus="(this.type='time')" onblur="(this.type='text')">
-              </div>
-              <div class="col-sm-6">
-                <select name="" id="" class="form-controle my-2">
-                  <option selected>Select Department</option>
-                  <option value="eye" class="option1">Eye Care</option>
-                  <option value="therapy">Physical Therapy</option>
-                  <option value="dental">Dental Care</option>
-                </select>
-              </div>
-              <div class="col-sm-6">
-                <select name="" id="" class="form-controle my-2">
-                  <option selected>Doctors</option>
-                  <option value="Mirazul" class="option1">Mirazul Alom</option>
-                  <option value="Monzul">Monzul Alom</option>
-                  <option value="Azizul">Azizul Islam</option>
-                </select>
-              </div>
-              <div class="col-sm-6">
-                <input type="text" class="form-controle px-3 py-2" placeholder="Name">
-              </div>
-              <div class="col-sm-6">
-                <input type="number" class="form-controle px-3 py-2" placeholder="Phone no.">
-              </div>
-              <div class="col-12">
-                <input type="email" class="form-controle px-3 py-2" placeholder="Email">
-              </div>
-              <div class="col-12">
-                <input type="submit" value="Search" class="confirm-btn">
-              </div>
+    <!-- Modal -->
+    <div
+      class="modal fade"
+      id="exampleModal"
+      tabindex="-1"
+      aria-labelledby="exampleModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content rounded-0 p-4">
+          <div class="modal-body">
+            <div class="appointment-section">
+              <h3 class="app-text">Make an Appointment</h3>
+              <form>
+                <div class="row">
+                  <div class="col-sm-6">
+                    <input
+                      type="text"
+                      class="form-controle px-3 py-2"
+                      placeholder="Pick date"
+                      onfocus="(this.type='date')"
+                      onblur="(this.type='text')"
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <input
+                      type="text"
+                      class="form-controle px-3 py-2"
+                      placeholder="Suitable time"
+                      onfocus="(this.type='time')"
+                      onblur="(this.type='text')"
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <select name="" id="" class="form-controle my-2">
+                      <option selected>Select Department</option>
+                      <option value="eye" class="option1">Eye Care</option>
+                      <option value="therapy">Physical Therapy</option>
+                      <option value="dental">Dental Care</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6">
+                    <select name="" id="" class="form-controle my-2">
+                      <option selected>Doctors</option>
+                      <option value="Mirazul" class="option1">
+                        Mirazul Alom
+                      </option>
+                      <option value="Monzul">Monzul Alom</option>
+                      <option value="Azizul">Azizul Islam</option>
+                    </select>
+                  </div>
+                  <div class="col-sm-6">
+                    <input
+                      type="text"
+                      class="form-controle px-3 py-2"
+                      placeholder="Name"
+                    />
+                  </div>
+                  <div class="col-sm-6">
+                    <input
+                      type="number"
+                      class="form-controle px-3 py-2"
+                      placeholder="Phone no."
+                    />
+                  </div>
+                  <div class="col-12">
+                    <input
+                      type="email"
+                      class="form-controle px-3 py-2"
+                      placeholder="Email"
+                    />
+                  </div>
+                  <div class="col-12">
+                    <input type="submit" value="Search" class="confirm-btn" />
+                  </div>
+                </div>
+              </form>
             </div>
-          </form>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</div>
-<!-- Modal end -->
+    <!-- Modal end -->
 
     <section class="section2">
       <div
@@ -189,56 +234,75 @@
     </section>
 
     <div class="container">
-        <div id="googleMap" style="width:100%;height:400px; margin-top: 2.5em;"></div>
-        <main class="main d-lg-flex" style="padding: 4em 0;">
+      <div
+        id="googleMap"
+        style="width: 100%; height: 400px; margin-top: 2.5em"
+      ></div>
+      <main class="main d-lg-flex" style="padding: 4em 0">
         <section class="primary-content">
           <div class="contact-form">
             <h4 class="com-title">Get in Touch</h4>
             <form action="">
-              <textarea class="form-control p-3 rounded-0" id="exampleFormControlTextarea1" rows="8" cols="30" placeholder="Write Comment"></textarea>
+              <textarea
+                class="form-control p-3 rounded-0"
+                id="exampleFormControlTextarea1"
+                rows="8"
+                cols="30"
+                placeholder="Write Comment"
+              ></textarea>
               <div class="row g-3 my-4">
                 <div class="col-sm-6">
-                  <input type="text" class="form-control px-3 py-2 rounded-0" placeholder="Name" aria-label="Name">
+                  <input
+                    type="text"
+                    class="form-control px-3 py-2 rounded-0"
+                    placeholder="Name"
+                    aria-label="Name"
+                  />
                 </div>
                 <div class="col-sm-6">
-                  <input type="email" class="form-control px-3 py-2 rounded-0" id="inputEmail4" placeholder="Email">
+                  <input
+                    type="email"
+                    class="form-control px-3 py-2 rounded-0"
+                    id="inputEmail4"
+                    placeholder="Email"
+                  />
                 </div>
               </div>
-              <input type="text" class="form-control my-4 px-3 py-2 rounded-0" id="website" placeholder="Website">
+              <input
+                type="text"
+                class="form-control my-4 px-3 py-2 rounded-0"
+                id="website"
+                placeholder="Website"
+              />
               <input type="submit" value="Send" class="msg-btn" />
             </form>
           </div>
         </section>
 
         <aside class="sidebar">
-            <div class="media post-item recent">
-              <img src="./img/home.png" alt="img" />
-              <div class="media-body">
-                <h3>Buttonwood, California.</h3>
-                <p>Rosemead, CA 91770
-                </p>
-              </div>
+          <div class="media post-item recent">
+            <img src="./img/home.png" alt="img" />
+            <div class="media-body">
+              <h3>Buttonwood, California.</h3>
+              <p>Rosemead, CA 91770</p>
             </div>
- 
-            <div class="media post-item recent">
-              <img src="./img/calling.png" alt="img" />
-              <div class="media-body">
-                <h3>+1 253 565 2365</h3>
-                <p>Mon to Fri 9am to 6pm
-                </p>
-              </div>
+          </div>
+
+          <div class="media post-item recent">
+            <img src="./img/calling.png" alt="img" />
+            <div class="media-body">
+              <h3>+1 253 565 2365</h3>
+              <p>Mon to Fri 9am to 6pm</p>
             </div>
- 
-            <div class="media post-item recent">
-              <img src="./img/email.png" alt="img" />
-              <div class="media-body">
-                <h3>support@docmed.com</h3>
-                <p>Send us your query anytime!
-                </p>
-              </div>
+          </div>
+
+          <div class="media post-item recent">
+            <img src="./img/email.png" alt="img" />
+            <div class="media-body">
+              <h3>support@docmed.com</h3>
+              <p>Send us your query anytime!</p>
             </div>
- 
-         
+          </div>
         </aside>
       </main>
     </div>
@@ -260,13 +324,19 @@
               <div class="social-links">
                 <ul>
                   <li>
-                    <a href="./contact.html"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="./contact.html"
+                      ><i class="fa-brands fa-facebook-f"></i
+                    ></a>
                   </li>
                   <li>
-                    <a href="./contact.html"><i class="fa-brands fa-x-twitter"></i></a>
+                    <a href="./contact.html"
+                      ><i class="fa-brands fa-x-twitter"></i
+                    ></a>
                   </li>
                   <li>
-                    <a href="./contact.html"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="./contact.html"
+                      ><i class="fa-brands fa-instagram"></i
+                    ></a>
                   </li>
                 </ul>
               </div>
